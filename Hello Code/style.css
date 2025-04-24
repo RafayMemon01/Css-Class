@@ -1,0 +1,40 @@
+h1{
+    color: blueviolet;
+    background-color: black;
+    font-size: 42px;
+    font-family: sans-serif;
+}
+.secondheading{
+    background-color: green;
+    color: white;
+    border: 1px solid #333;
+}
+
+.container{
+    background-color: black;
+    width: 720px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+}
+
+.child1{
+    padding: 32px;
+    background-color: red;
+ 
+    height: 20px;
+}
+.child2{
+    padding: 32px;
+    background-color: green;
+ 
+    height: 20px;
+}
+.child3{
+    padding: 32px;
+    background-color: blue;
+ 
+    height: 20px;
+}

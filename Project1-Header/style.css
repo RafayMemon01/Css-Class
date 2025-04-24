@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+}
+.logo img{
+    width: 80px;
+}
+
+.navigations ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+}
+
+.navigations ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:0 1em 0 1em;
+    align-items: center;
+}
+
+.action-btn button{
+    background-color: #A1252F;
+    padding: 4px 10px 4px 10px;
+    color: white;
+    border: transparent;
+    font-size: 16px;
+    border-radius: .5em;
+    transition: all 5ms ease-in-out;
+}
+
+.action-btn button:hover{
+    background-color: white;
+    color: #A1252F;
+    border:1px solid #A1252F;
+}
