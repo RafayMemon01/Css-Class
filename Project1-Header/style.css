@@ -1,7 +1,4 @@
-*{
-    font-family: sans-serif;
-}
-.logo img{
+*{    font-family: sans-serif;}.logo img{
     width: 80px;
 }
 
@@ -10,6 +7,7 @@
     list-style-type: none;
     gap: 1em;
 }
+
 
 .navigations ul li a{
     text-decoration: none;
